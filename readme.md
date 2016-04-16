@@ -23,8 +23,8 @@ micro query go.micro.srv.greeter Say.Hello '{"name": "John"}'
 ```
 
 Web interfaces
-* consul - http://localhost:8500/
-* Micro - `micro web` - http://localhost:8082/
+* consul - http://localhost:8500
+* Micro - http://localhost:8082 (available after running `micro web`)
 
 ![micro web interface](micro.png)
 ![micro web interface - specific service](micro2.png)
