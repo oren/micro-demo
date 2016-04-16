@@ -21,3 +21,10 @@ micro list services
 micro get service go.micro.srv.greeter
 micro query go.micro.srv.greeter Say.Hello '{"name": "John"}'
 ```
+
+Web interfaces
+* consul - http://localhost:8500/
+* Micro - `micro web` - http://localhost:8082/
+
+![micro web interface](micro.png)
+![micro web interface - specific service](micro2.png)
